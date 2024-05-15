@@ -10,7 +10,7 @@ llm = GPT4AllJ(model='C:/Users/vansh/Desktop/PC/ML/LLM/model/ggml-gpt4all-j-v1.3
 
 
 #Setting up the layout and content for the streamlit web app
-st.set_page_config(page_title = "Custom Chat GPT")
+st.set_page_config(page_title = "Custom Chat GPT", layout = "wide")
 st.markdown("<h1 style='text-align':centre;, '>Hello Vansh ! Welcome to your AI Chatbot</h1>", unsafe_allow_html  = True)
 st.markdown("<h3 style='text-align':centre;, '>How may I help you today ?</h3><br><br>", unsafe_allow_html  = True)
 
